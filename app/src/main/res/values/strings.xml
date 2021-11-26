@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ComputerManage</string>
+    <string name="trangchu">Trang chủ</string>
+    <string name="hoadon">Hóa đơn</string>
+    <string name="thongke">Thống kê</string>
+    <string name="them">Thêm</string>
+</resources>

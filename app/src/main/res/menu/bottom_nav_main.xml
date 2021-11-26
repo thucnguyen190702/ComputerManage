@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/trangchu"
+        android:title="@string/trangchu"
+        android:icon="@drawable/ic_home36"/>
+    <item android:id="@+id/hoadon"
+        android:title="@string/hoadon"
+        android:icon="@drawable/outline_receipt_black_36"/>
+    <item android:id="@+id/thongke"
+        android:title="@string/thongke"
+        android:icon="@drawable/outline_insert_chart_outlined_black_36"/>
+    <item android:id="@+id/them"
+        android:title="@string/them"
+        android:icon="@drawable/outline_more_horiz_black_36"/>
+
+
+</menu>

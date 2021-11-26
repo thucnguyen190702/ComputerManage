@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".UI.KhachHang.ActivityAddKhachHang">
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        app:boxStrokeColor="#03A9F4"
+        app:boxStrokeWidth="1.5dp"
+        app:hintTextColor="#03A9F4"
+        app:startIconDrawable="@drawable/ic_source">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_maKhachHang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã khách hàng"
+            android:textColor="#03A9F4" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:boxStrokeColor="#03A9F4"
+        app:boxStrokeWidth="1.5dp"
+        app:endIconMode="clear_text"
+
+        app:hintTextColor="#03A9F4"
+        app:startIconDrawable="@drawable/ic_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_tenKhachHang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên khách hàng"
+
+            android:textColor="#03A9F4" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:boxStrokeColor="#03A9F4"
+        app:boxStrokeWidth="1.5dp"
+        app:endIconMode="clear_text"
+
+        app:hintTextColor="#03A9F4"
+        app:startIconDrawable="@drawable/ic_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_sdtKhachHang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số điện thoại"
+
+            android:textColor="#03A9F4" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <RadioGroup
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:id="@+id/rdg_gioiTinh"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rdo_nam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nam"
+                android:layout_marginStart="16sp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/rdo_nu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nữ"
+                android:layout_marginStart="20dp"
+                android:textSize="20sp"/>
+
+        </RadioGroup>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:boxStrokeColor="#03A9F4"
+        app:boxStrokeWidth="1.5dp"
+        app:endIconMode="clear_text"
+
+        app:hintTextColor="#03A9F4"
+        app:startIconDrawable="@drawable/ic_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_diaChiKhachHang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Địa chỉ"
+
+            android:textColor="#03A9F4" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

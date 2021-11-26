@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#E8E8E8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thiết lập bán hàng"
+        android:textSize="20dp"
+        android:padding="15dp"/>
+    <TextView
+        android:id="@+id/tv_hang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hãng"
+        android:textSize="20dp"
+        android:background="@color/white"
+        android:layout_marginTop="2dp"
+        android:textColor="#0D1306"
+        android:drawableLeft="@drawable/ic_delete20"
+        android:padding="10dp"
+        android:drawablePadding="15dp"/>
+    <TextView
+        android:textColor="#0D1306"
+        android:id="@+id/tvLoaiSanPham_Them"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Loại Sản Phẩm"
+        android:background="@color/white"
+        android:layout_marginTop="2dp"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_delete20"
+        android:drawablePadding="15dp"/>
+        <TextView
+            android:textColor="#0D1306"
+            android:drawableLeft="@drawable/ic_delete20"
+            android:layout_marginTop="2dp"
+            android:drawablePadding="15dp"
+            android:padding="10dp"
+            android:background="@color/white"
+            android:id="@+id/tvSanPham_Them"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sản Phẩm"
+            android:textSize="20dp" />
+
+
+
+
+
+        <TextView
+            android:textColor="#0D1306"
+            android:id="@+id/tvKhachHang_Them"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="Khách Hàng"
+            android:background="@color/white"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_delete20"
+            android:drawablePadding="15dp"/>
+    <TextView
+        android:textColor="#0D1306"
+        android:id="@+id/tvNhanVien_Them"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:text="Nhân Viên"
+        android:background="@color/white"
+        android:layout_marginTop="2dp"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_delete20"
+        android:drawablePadding="15dp"/>
+
+    <TextView
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khác"
+        android:textSize="20dp"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="#780B0B"
+            android:id="@+id/tvTaiKhoan_Them"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tài Khoản"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_delete20"
+            android:padding="10dp"
+            android:drawablePadding="15dp"/>
+        <TextView
+            android:textColor="#780B0B"
+            android:id="@+id/tvThongTin_Them"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thông Tin"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_delete20"
+            android:padding="10dp"
+            android:drawablePadding="15dp"/>
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/tvThoat_Them"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="Thoát"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_delete20"
+            android:drawablePadding="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>
